@@ -27,6 +27,8 @@ gem 'aws-sdk', '~> 1.20.0'
 gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'masonry-rails'
+gem 'will_paginate', '~> 3.0.5'
+gem 'will_paginate-bootstrap'
 
 group :development, :test do
      gem 'sqlite3'
